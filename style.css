@@ -53,6 +53,8 @@ body {background-color: #212121;}
     border-radius: 50%;
     transform: scale(.9);
     position: absolute;
+    left: 0;
+    transition: .5;
 }
 
 .trilho.dark .indicador{
