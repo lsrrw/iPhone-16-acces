@@ -122,11 +122,11 @@ footer h2 {
 
 body.dark {
     background-color: #e4e4e4;
-    color: #000;
+    color: #464646;
 }
 
 body.dark a {
-    color: #353535;
+    color: #000000;
 }
 
 body.dark .botao {
