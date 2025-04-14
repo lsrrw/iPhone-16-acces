@@ -1,6 +1,16 @@
-let = trilho = document.getElementById('trilho')
-let body = document.querySelector('body')
-trilho.AddEventListener('click', ()=>{
-trilho.classList.toggle('dark')
-body.classList.toggle('dark')
-})
+const trilho = document.getElementById('trilho');
+const body = document.body;
+
+trilho.addEventListener('click', () => {
+    trilho.classList.toggle('dark');
+    body.classList.toggle('dark');
+});
+
+// Acessibilidade (se quiser deixar junto)
+document.getElementById('aumentar-fonte').addEventListener('click', () => {
+    document.body.style.fontSize = 'larger';
+});
+
+document.getElementById('diminuir-fonte').addEventListener('click', () => {
+    document.body.style.fontSize = 'smaller';
+});
